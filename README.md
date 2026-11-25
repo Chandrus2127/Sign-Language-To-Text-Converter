@@ -4,7 +4,6 @@ A computer-vision and machine-learning application that recognizes hand gestures
 
 ![architecture](images/architecture.png)
 
-![Output Video](images/outputVideo_gif.gif)
 [YouTube](https://www.youtube.com/watch?v=Rd04XB6F0pU)
 
 ## Abstract
@@ -76,9 +75,7 @@ for i in string.ascii_uppercase:
 
 I captured each frame shown by the webcam of our machine. 
 
-In each frame I defined a region of interest (ROI) which is denoted by a blue bounded square as shown in the image below.
-
-![Training Data Collection Image](images/trainingdata.png)
+In each frame I defined a region of interest (ROI), denoted by a blue bounded square.
 
 After capturing the image from the ROI, I applied gaussian blur filter to the image which helps for extracting various features of the image. 
 
@@ -185,9 +182,7 @@ So, to handle above cases I made three different classifiers for classifying the
 2.	{T, K, D, I}
 3.	{S, M, N} 
 
-The GUI(Graphical User Interface) of the application is as shown below :
-
-![GUI](images/gui.png)
+The application provides a graphical user interface (GUI) for converting recognized gestures into text.
 
 Flow Chart for Gesture Classification is as following :
 
