@@ -1,0 +1,8 @@
+# Sign Language To Text Conversion Requirements
+# Compatible with Python 3.8+ on Windows / macOS / Linux
+
+opencv-python>=4.8.0
+tensorflow>=2.10.0
+numpy>=1.22.0
+pillow>=9.5.0
+pyenchant>=3.2.0
